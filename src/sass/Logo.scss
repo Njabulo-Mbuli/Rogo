@@ -1,0 +1,43 @@
+%circleStyling{
+	position:absolute;
+	width:3em;
+	height: 3em;
+	border-radius:50%;
+	color:white;
+	top:0;
+}
+.Logo{
+	
+	position:relative;
+	display: flex;
+	align-items: center;
+	width:5em;
+	height: 3em;
+	padding: 0;
+	.Title{
+		position:relative;
+	}
+	.circle1{
+		@extend %circleStyling;
+		background-color:#8B1A1A;
+		z-index: 5;	
+	}
+	.circle2{
+		@extend %circleStyling;
+		left:0.8em;
+		background-color:#DB2929;
+		z-index: 4;
+	}
+	.circle3{
+		@extend %circleStyling;
+		left:1.6em;
+		background-color:#EE6363;
+		z-index: 3;
+	}
+}
+
+.LogoWithTitle{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}

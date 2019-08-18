@@ -1,5 +1,1 @@
-.sideDrawer {
-  background-color: pink;
-}
-
-/*# sourceMappingURL=sidedrawer.css.map */
+.SideDrawer_Title{color:#fff;font-size:2.7em;padding:0;margin:.2em;font-family:"Building_Font";text-transform:uppercase;text-shadow:1px 1px #0f3443,2px 2px #0f3443,3px 3px #0f3443}.DrawerToggle{width:40px;height:125vh;display:flex;flex-flow:column;justify-content:space-around;align-items:center;padding:10px 0;box-sizing:border-box;cursor:pointer;box-shadow:0px 6px 27px 1px rgba(0,0,0,.75)}.try{margin-top:5em}.DrawerToggle div{width:90%;height:3px;background-color:#fff}.navigation_items_sideDrawer{list-style:none;margin:0;padding:0}.navigation_items_sideDrawer li{padding:.7em;font-weight:bold}@media(min-width: 500px){.DrawerToggle{display:none}}.SideDrawer{position:fixed;min-width:280px;max-width:80%;height:100%;left:0;top:0;z-index:600;background-color:#fff;padding:32px 16px;box-sizing:border-box;transition:transform .3s ease-out;-webkit-box-shadow:6px 4px 23px 0px rgba(0,0,0,.75);-moz-box-shadow:6px 4px 23px 0px rgba(0,0,0,.75);box-shadow:6px 4px 23px 0px rgba(0,0,0,.75)}.SideDrawer a{text-decoration:none;color:#000}@media(min-width: 670px){.SideDrawer{display:none}}.Open{transform:translateX(0)}.Closed{transform:translateX(-130%)}/*# sourceMappingURL=SideDrawer.css.map */
