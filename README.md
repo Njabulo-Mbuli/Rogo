@@ -26,7 +26,8 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-### 'npm run scss'
+
+### `npm run scss`
 
 This will make sure that any changes you make to the sass folder will be reflected for all files that are affect 
 in the css folder. Run this if you want to save loads of time...
