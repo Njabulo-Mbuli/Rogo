@@ -29,8 +29,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run scss`
 
-This will make sure that any changes you make to the sass folder will be reflected for all files that are affect 
-in the css folder. Run this if you want to save loads of time...
+This will make sure that any changes you make to the sass folder will be reflected for all the corresponding 
+files in the css folder. Run this if you want to save loads of time...
+
+**Note: This will lock up the terminal window while it is running, so open another terminal window if you need 
+to keep using the terminal.s
 
 ### `npm run eject`
 

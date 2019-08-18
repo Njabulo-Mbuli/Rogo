@@ -5,7 +5,7 @@ class SideDrawer extends React.Component{
 
 	render(){
 		return(
-			<div>
+			<div className="sideDrawer">
 				SideDrawer
 			</div>
 		);
