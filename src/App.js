@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import Layout from '/Containers/Layout/Layout';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import Layout from './Containers/Layout/Layout';
+import Home from './Containers/Home/Home';
+import NewGame from './Containers/NewGame/NewGame';
+import ScoreBoard from './Containers/ScoreBoard/ScoreBoard';
+
 import './App.css';
 
 class App extends React.Component {
@@ -8,11 +12,13 @@ class App extends React.Component {
   render(){
     return (
       <Layout>
-        <Switch>
-          <Route path="/" component={}/>
-          <Route path="/#/NewGame" component={}/>
-          <Route path="/#/ScoreBoard" component={}/>
-        </Switch>
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/#/NewGame" component={NewGame}/>
+            <Route path="/#/ScoreBoard" component={ScoreBoard}/>
+          </Switch>
+        </BrowserRouter>
       </Layout>
     );
   }
