@@ -8,12 +8,12 @@ class Toolbar extends React.Component{
 		return(
 			<div className="Toolbar">
 				<div 
-        className={"burgerMenu"}
-        onClick={this.props.toggleSideDrawer}>
-          <div className="slant"></div>
-          <div className="slant"></div>
-          <div className="slant"></div>
-        </div>
+			        className={"burgerMenu"}
+			        onClick={this.props.toggleSideDrawer}>
+			          <div className="slant"></div>
+			          <div className="slant"></div>
+			          <div className="slant"></div>
+			    </div>
 				<Logo/>
 			</div>
 		);

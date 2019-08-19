@@ -23,8 +23,22 @@ class SideDrawer extends Component{
 	  					<li onClick={this.props.toggleView}><a href="http://www.njabulombuli.co.za" target="_blank" rel="noopener noreferrer">My Website</a></li>
 	  				</ul>
 	  			</nav>
-	  			<div style={{marginTop:"40vh"}}><h3><a href="http://www.njabulombuli.co.za"><em>Developed and maintained by Njabulo Mbuli</em></a></h3></div>
-	  			<div onClick={this.props.toggleView} style={{width:"100%",height:"100%", position:"absolute", top:"0",left:"0",zIndex:"-5"}}></div>
+
+	  			<div style={{marginTop:"40vh"}}>
+	  				<h3>
+	  					<a href="http://www.njabulombuli.co.za">
+	  						<em>Developed and maintained by Njabulo Mbuli</em>
+	  					</a>
+	  				</h3>
+	  			</div>
+
+	  			{//this div is acting as an event listener, incase the user clicks
+	  			 //open space on the sidedrawer, the sidedrawer needs to close
+	  			}
+	  			<div onClick={this.props.toggleView}
+	  				style={{width:"100%",height:"100%", position:"absolute", top:"0",left:"0",zIndex:"-5"}}>
+	  			</div>
+
 				</div>
 			</Fragment>
 		);

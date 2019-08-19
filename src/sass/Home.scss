@@ -1,5 +1,61 @@
-
+%BigPunctuation{
+	font-size: 15em;
+	color:lightblue;
+}
 
 .home{
 	height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	position:relative;
+	.landingPageText{
+		position:absolute;
+		top: calc(50% - 30vh);
+		left: calc(50% - 40vw);
+		width: 70vw;
+		max-width: 400px;
+	}
+
+	.graphicalItems{
+		position:absolute;
+		right:8vw;
+		bottom: 3vh;
+
+		.punctuation{
+			display: flex;
+			flex-flow: row;
+			.exclamationMark{
+				@extend %BigPunctuation;
+			}
+			.questionMark{
+				@extend %BigPunctuation;
+			}
+		}
+	}
+
+	.addPlayersBox{
+		justify-content:flex-start;
+		flex-flow: column;
+		align-items: center;
+		background-color: red;
+		opacity:1;
+		width: 95vw;
+		max-width: 600px;
+		height: 65vh;
+		top:calc(50% - 30.5vh);
+		padding:0.7em 0.1em;
+		left: 100%;
+		position:absolute;
+	}
+
+	.displayPlayers{
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+		cursor: not-allowed;
+		margin:0.3em;
+		height: 30vh;
+		overflow: auto;
+	}
 }

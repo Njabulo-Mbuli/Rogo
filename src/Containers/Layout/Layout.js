@@ -31,14 +31,14 @@ class Layout extends React.Component{
                 params={{
                 "particles": {
                     "number": {
-                        "value": 20,
+                        "value": 30,
                         "density": {
                             "enable": true,
                             "value_area": 1803.4120608655228
                         }
                     },
                     "color": {
-                        "value": "#EE6363"
+                        "value": ["#EE6363","#330000","#FF0000","#C65D57","#FC1501"]
                     },
                     "shape": {
                         "type": "circle",
@@ -55,19 +55,19 @@ class Layout extends React.Component{
                         "value": 0.4,
                         "random": false,
                         "anim": {
-                            "enable": false,
+                            "enable": true,
                             "speed": 1,
-                            "opacity_min": 0.2,
+                            "opacity_min": 0.1,
                             "sync": false
                         }
                     },
                     "size": {
-                        "value": 80,
+                        "value": 40,
                         "random": true,
                         "anim": {
-                            "enable": false,
+                            "enable": true,
                             "speed": 30,
-                            "size_min": 60,
+                            "size_min": 20,
                             "sync": false
                         }
                     },
@@ -75,7 +75,7 @@ class Layout extends React.Component{
                         "enable": true,
                         "speed": 6,
                         "direction": "none",
-                        "random": false,
+                        "random": true,
                         "straight": false,
                         "out_mode": "out",
                         "bounce": false,
