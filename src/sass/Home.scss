@@ -34,14 +34,15 @@
 	}
 
 	.addPlayersBox{
+		display: flex;
 		justify-content:flex-start;
 		flex-flow: column;
 		align-items: center;
 		background-color: red;
-		opacity:1;
 		width: 95vw;
 		max-width: 600px;
-		height: 65vh;
+		min-height: 65vh;
+		max-height: 70vh;
 		top:calc(50% - 30.5vh);
 		padding:0.7em 0.1em;
 		left: 100%;
@@ -53,9 +54,24 @@
 		flex-flow: row wrap;
 		align-items: center;
 		justify-content: center;
-		cursor: not-allowed;
 		margin:0.3em;
 		height: 30vh;
 		overflow: auto;
+	}
+
+	.chooseSettings{
+		display: flex;
+		justify-content: flex-start;
+		flex-flow:column;
+		align-items: center;
+		background-color:red;
+		width:95vw;
+		max-width: 600px;
+		height:65vh;
+		top:calc(50% - 30.5vh);
+		padding:0.7em 0.1em;
+		left:100%;
+		position:absolute;
+		z-index: 4;
 	}
 }

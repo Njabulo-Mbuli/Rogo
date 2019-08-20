@@ -20,14 +20,15 @@ class Layout extends React.Component{
 
 	render(){
 		return(
-			<div style={{height:"100vh",backgroundColor:"white"}}>
+			<div style={{height:"100vh"}}>
 				<Toolbar toggleSideDrawer={()=>{
 					this.showSideDrawerToggle()
 				}}/>
 				<SideDrawer show={this.state.showSideDrawer}
 							toggleView={this.showSideDrawerToggle}/>
+				
 				<Particles 
-                style={{position:"absolute",top:"0",left:"0",width:"100vw",height:"100vh"}}
+                style={{position:"absolute",top:"0",left:"0",width:"100vw",height:"100vh",zIndex:"-1"}}
                 params={{
                 "particles": {
                     "number": {
@@ -87,7 +88,7 @@ class Layout extends React.Component{
                     }
                 }
             }} />
-				{this.props.children}
+            {this.props.children}
 			</div>
 		);
 	}
