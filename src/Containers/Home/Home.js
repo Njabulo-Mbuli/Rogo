@@ -217,7 +217,7 @@ class Home extends React.Component{
 						<div style={{display:"flex",justifyContent:"center"}}>
 							<div>
 								<label>Team 1</label>
-								<input type="range number" min="1" max={this.state.players.length-1} id="firstTeam" defaultValue="1" style={{width:"2.5em"}}/>
+								<input type="number" min="1" max={this.state.players.length-1} id="firstTeam" defaultValue="1" style={{width:"2.5em"}}/>
 							</div>
 							<div>
 								<label>Team 2</label>
