@@ -6,7 +6,7 @@ import {TweenLite,TimelineLite} from 'gsap';
 
 class Home extends React.Component{
 	state={
-		players:["jake","jill","andrew","john","jenny","teddy","atlas","power"],
+		players:[],
 		formErrors:[]
 	}
 

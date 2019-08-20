@@ -67,7 +67,7 @@ class GamePlay extends React.Component{
 		return(
 			<React.Fragment>
 					{display}
-			 </React.Fragment>
+			</React.Fragment>
 		);
 	}
 }
