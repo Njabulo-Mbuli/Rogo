@@ -182,7 +182,7 @@ class Home extends React.Component{
 					<form style={{display:"flex",flexFlow:"column",justifyContent:"center"}}>
 						<div>
 							<label>Number of questions:</label>
-							<input type="range number" min="2" max="50" id="numberOfQuestions" defaultValue="10" name="numberOfQuestions" style={{width:"2.5em",textAlign:"center"}}/>
+							<input type="number" min="2" max="50" id="numberOfQuestions" defaultValue="10" name="numberOfQuestions" style={{width:"2.5em",textAlign:"center"}}/>
 						</div>
 
 						<div>
