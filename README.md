@@ -1,3 +1,4 @@
+You can view the build on the following address: http://rogo.njabulombuli.co.za
 
 ## Available Scripts
 
